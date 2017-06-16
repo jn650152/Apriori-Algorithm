@@ -1,9 +1,0 @@
-age<=41 41<age<=64 age>64 job=unemployed job=services job=management job=blue-collar job=self-employed job=technician  
-0 1 0 1 0 0 0 0 0
-0 1 0 0 1 0 0 0 0
-1 0 0 0 0 1 0 0 0
-0 1 0 0 0 0 1 0 0
-1 0 0 0 0 0 0 1 0
-1 0 0 1 0 0 0 0 0
-1 0 0 1 0 0 0 0 0
-1 0 0 0 0 1 0 0 0 
