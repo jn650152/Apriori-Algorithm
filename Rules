@@ -1,0 +1,829 @@
+Summary:
+Total rows in the original set: 14
+Total rules discovered: 412The selected measures: Support = 0.1, Confidence= 0.1
+--------------------------------
+Discovered Rules:
+#Rule1: (support rate: 0.285714, confidence rate: 0.571429)
+{Humidity= high } => {PlayTennis= N }
+#Rule2: (support rate: 0.285714, confidence rate: 0.800000)
+{PlayTennis= N } => {Humidity= high }
+#Rule3: (support rate: 0.214286, confidence rate: 0.428571)
+{Humidity= high } => {PlayTennis= P }
+#Rule4: (support rate: 0.214286, confidence rate: 0.333333)
+{PlayTennis= P } => {Humidity= high }
+#Rule5: (support rate: 0.285714, confidence rate: 0.571429)
+{Humidity= high } => {Windy= false }
+#Rule6: (support rate: 0.285714, confidence rate: 0.500000)
+{Windy= false } => {Humidity= high }
+#Rule7: (support rate: 0.214286, confidence rate: 0.428571)
+{Humidity= high } => {Windy= true }
+#Rule8: (support rate: 0.214286, confidence rate: 0.500000)
+{Windy= true } => {Humidity= high }
+#Rule9: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= high } => {outlook= overcast }
+#Rule10: (support rate: 0.142857, confidence rate: 0.500000)
+{outlook= overcast } => {Humidity= high }
+#Rule11: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= high } => {outlook= rain }
+#Rule12: (support rate: 0.142857, confidence rate: 0.400000)
+{outlook= rain } => {Humidity= high }
+#Rule13: (support rate: 0.214286, confidence rate: 0.428571)
+{Humidity= high } => {outlook= sunny }
+#Rule14: (support rate: 0.214286, confidence rate: 0.600000)
+{outlook= sunny } => {Humidity= high }
+#Rule15: (support rate: 0.214286, confidence rate: 0.428571)
+{Humidity= high } => {temperature= hot }
+#Rule16: (support rate: 0.214286, confidence rate: 0.750000)
+{temperature= hot } => {Humidity= high }
+#Rule17: (support rate: 0.285714, confidence rate: 0.571429)
+{Humidity= high } => {temperature= mild }
+#Rule18: (support rate: 0.285714, confidence rate: 0.666667)
+{temperature= mild } => {Humidity= high }
+#Rule19: (support rate: 0.428571, confidence rate: 0.857143)
+{Humidity= normal } => {PlayTennis= P }
+#Rule20: (support rate: 0.428571, confidence rate: 0.666667)
+{PlayTennis= P } => {Humidity= normal }
+#Rule21: (support rate: 0.285714, confidence rate: 0.571429)
+{Humidity= normal } => {Windy= false }
+#Rule22: (support rate: 0.285714, confidence rate: 0.500000)
+{Windy= false } => {Humidity= normal }
+#Rule23: (support rate: 0.214286, confidence rate: 0.428571)
+{Humidity= normal } => {Windy= true }
+#Rule24: (support rate: 0.214286, confidence rate: 0.500000)
+{Windy= true } => {Humidity= normal }
+#Rule25: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= normal } => {outlook= overcast }
+#Rule26: (support rate: 0.142857, confidence rate: 0.500000)
+{outlook= overcast } => {Humidity= normal }
+#Rule27: (support rate: 0.214286, confidence rate: 0.428571)
+{Humidity= normal } => {outlook= rain }
+#Rule28: (support rate: 0.214286, confidence rate: 0.600000)
+{outlook= rain } => {Humidity= normal }
+#Rule29: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= normal } => {outlook= sunny }
+#Rule30: (support rate: 0.142857, confidence rate: 0.400000)
+{outlook= sunny } => {Humidity= normal }
+#Rule31: (support rate: 0.285714, confidence rate: 0.571429)
+{Humidity= normal } => {temperature= cool }
+#Rule32: (support rate: 0.285714, confidence rate: 1.000000)
+{temperature= cool } => {Humidity= normal }
+#Rule33: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= normal } => {temperature= mild }
+#Rule34: (support rate: 0.142857, confidence rate: 0.333333)
+{temperature= mild } => {Humidity= normal }
+#Rule35: (support rate: 0.142857, confidence rate: 0.400000)
+{PlayTennis= N } => {Windy= false }
+#Rule36: (support rate: 0.142857, confidence rate: 0.250000)
+{Windy= false } => {PlayTennis= N }
+#Rule37: (support rate: 0.214286, confidence rate: 0.600000)
+{PlayTennis= N } => {Windy= true }
+#Rule38: (support rate: 0.214286, confidence rate: 0.500000)
+{Windy= true } => {PlayTennis= N }
+#Rule39: (support rate: 0.142857, confidence rate: 0.400000)
+{PlayTennis= N } => {outlook= rain }
+#Rule40: (support rate: 0.142857, confidence rate: 0.400000)
+{outlook= rain } => {PlayTennis= N }
+#Rule41: (support rate: 0.214286, confidence rate: 0.600000)
+{PlayTennis= N } => {outlook= sunny }
+#Rule42: (support rate: 0.214286, confidence rate: 0.600000)
+{outlook= sunny } => {PlayTennis= N }
+#Rule43: (support rate: 0.142857, confidence rate: 0.400000)
+{PlayTennis= N } => {temperature= hot }
+#Rule44: (support rate: 0.142857, confidence rate: 0.500000)
+{temperature= hot } => {PlayTennis= N }
+#Rule45: (support rate: 0.142857, confidence rate: 0.400000)
+{PlayTennis= N } => {temperature= mild }
+#Rule46: (support rate: 0.142857, confidence rate: 0.333333)
+{temperature= mild } => {PlayTennis= N }
+#Rule47: (support rate: 0.428571, confidence rate: 0.666667)
+{PlayTennis= P } => {Windy= false }
+#Rule48: (support rate: 0.428571, confidence rate: 0.750000)
+{Windy= false } => {PlayTennis= P }
+#Rule49: (support rate: 0.214286, confidence rate: 0.333333)
+{PlayTennis= P } => {Windy= true }
+#Rule50: (support rate: 0.214286, confidence rate: 0.500000)
+{Windy= true } => {PlayTennis= P }
+#Rule51: (support rate: 0.285714, confidence rate: 0.444444)
+{PlayTennis= P } => {outlook= overcast }
+#Rule52: (support rate: 0.285714, confidence rate: 1.000000)
+{outlook= overcast } => {PlayTennis= P }
+#Rule53: (support rate: 0.214286, confidence rate: 0.333333)
+{PlayTennis= P } => {outlook= rain }
+#Rule54: (support rate: 0.214286, confidence rate: 0.600000)
+{outlook= rain } => {PlayTennis= P }
+#Rule55: (support rate: 0.142857, confidence rate: 0.222222)
+{PlayTennis= P } => {outlook= sunny }
+#Rule56: (support rate: 0.142857, confidence rate: 0.400000)
+{outlook= sunny } => {PlayTennis= P }
+#Rule57: (support rate: 0.214286, confidence rate: 0.333333)
+{PlayTennis= P } => {temperature= cool }
+#Rule58: (support rate: 0.214286, confidence rate: 0.750000)
+{temperature= cool } => {PlayTennis= P }
+#Rule59: (support rate: 0.142857, confidence rate: 0.222222)
+{PlayTennis= P } => {temperature= hot }
+#Rule60: (support rate: 0.142857, confidence rate: 0.500000)
+{temperature= hot } => {PlayTennis= P }
+#Rule61: (support rate: 0.285714, confidence rate: 0.444444)
+{PlayTennis= P } => {temperature= mild }
+#Rule62: (support rate: 0.285714, confidence rate: 0.666667)
+{temperature= mild } => {PlayTennis= P }
+#Rule63: (support rate: 0.142857, confidence rate: 0.250000)
+{Windy= false } => {outlook= overcast }
+#Rule64: (support rate: 0.142857, confidence rate: 0.500000)
+{outlook= overcast } => {Windy= false }
+#Rule65: (support rate: 0.214286, confidence rate: 0.375000)
+{Windy= false } => {outlook= rain }
+#Rule66: (support rate: 0.214286, confidence rate: 0.600000)
+{outlook= rain } => {Windy= false }
+#Rule67: (support rate: 0.214286, confidence rate: 0.375000)
+{Windy= false } => {outlook= sunny }
+#Rule68: (support rate: 0.214286, confidence rate: 0.600000)
+{outlook= sunny } => {Windy= false }
+#Rule69: (support rate: 0.142857, confidence rate: 0.250000)
+{Windy= false } => {temperature= cool }
+#Rule70: (support rate: 0.142857, confidence rate: 0.500000)
+{temperature= cool } => {Windy= false }
+#Rule71: (support rate: 0.214286, confidence rate: 0.375000)
+{Windy= false } => {temperature= hot }
+#Rule72: (support rate: 0.214286, confidence rate: 0.750000)
+{temperature= hot } => {Windy= false }
+#Rule73: (support rate: 0.214286, confidence rate: 0.375000)
+{Windy= false } => {temperature= mild }
+#Rule74: (support rate: 0.214286, confidence rate: 0.500000)
+{temperature= mild } => {Windy= false }
+#Rule75: (support rate: 0.142857, confidence rate: 0.333333)
+{Windy= true } => {outlook= overcast }
+#Rule76: (support rate: 0.142857, confidence rate: 0.500000)
+{outlook= overcast } => {Windy= true }
+#Rule77: (support rate: 0.142857, confidence rate: 0.333333)
+{Windy= true } => {outlook= rain }
+#Rule78: (support rate: 0.142857, confidence rate: 0.400000)
+{outlook= rain } => {Windy= true }
+#Rule79: (support rate: 0.142857, confidence rate: 0.333333)
+{Windy= true } => {outlook= sunny }
+#Rule80: (support rate: 0.142857, confidence rate: 0.400000)
+{outlook= sunny } => {Windy= true }
+#Rule81: (support rate: 0.142857, confidence rate: 0.333333)
+{Windy= true } => {temperature= cool }
+#Rule82: (support rate: 0.142857, confidence rate: 0.500000)
+{temperature= cool } => {Windy= true }
+#Rule83: (support rate: 0.214286, confidence rate: 0.500000)
+{Windy= true } => {temperature= mild }
+#Rule84: (support rate: 0.214286, confidence rate: 0.500000)
+{temperature= mild } => {Windy= true }
+#Rule85: (support rate: 0.142857, confidence rate: 0.500000)
+{outlook= overcast } => {temperature= hot }
+#Rule86: (support rate: 0.142857, confidence rate: 0.500000)
+{temperature= hot } => {outlook= overcast }
+#Rule87: (support rate: 0.142857, confidence rate: 0.400000)
+{outlook= rain } => {temperature= cool }
+#Rule88: (support rate: 0.142857, confidence rate: 0.500000)
+{temperature= cool } => {outlook= rain }
+#Rule89: (support rate: 0.214286, confidence rate: 0.600000)
+{outlook= rain } => {temperature= mild }
+#Rule90: (support rate: 0.214286, confidence rate: 0.500000)
+{temperature= mild } => {outlook= rain }
+#Rule91: (support rate: 0.142857, confidence rate: 0.400000)
+{outlook= sunny } => {temperature= hot }
+#Rule92: (support rate: 0.142857, confidence rate: 0.500000)
+{temperature= hot } => {outlook= sunny }
+#Rule93: (support rate: 0.142857, confidence rate: 0.400000)
+{outlook= sunny } => {temperature= mild }
+#Rule94: (support rate: 0.142857, confidence rate: 0.333333)
+{temperature= mild } => {outlook= sunny }
+#Rule95: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= high } => {PlayTennis= N, Windy= false }
+#Rule96: (support rate: 0.142857, confidence rate: 0.400000)
+{PlayTennis= N } => {Humidity= high, Windy= false }
+#Rule97: (support rate: 0.142857, confidence rate: 0.500000)
+{Humidity= high, PlayTennis= N } => {Windy= false }
+#Rule98: (support rate: 0.142857, confidence rate: 0.250000)
+{Windy= false } => {Humidity= high, PlayTennis= N }
+#Rule99: (support rate: 0.142857, confidence rate: 0.500000)
+{Humidity= high, Windy= false } => {PlayTennis= N }
+#Rule100: (support rate: 0.142857, confidence rate: 1.000000)
+{PlayTennis= N, Windy= false } => {Humidity= high }
+#Rule101: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= high } => {PlayTennis= N, Windy= true }
+#Rule102: (support rate: 0.142857, confidence rate: 0.400000)
+{PlayTennis= N } => {Humidity= high, Windy= true }
+#Rule103: (support rate: 0.142857, confidence rate: 0.500000)
+{Humidity= high, PlayTennis= N } => {Windy= true }
+#Rule104: (support rate: 0.142857, confidence rate: 0.333333)
+{Windy= true } => {Humidity= high, PlayTennis= N }
+#Rule105: (support rate: 0.142857, confidence rate: 0.666667)
+{Humidity= high, Windy= true } => {PlayTennis= N }
+#Rule106: (support rate: 0.142857, confidence rate: 0.666667)
+{PlayTennis= N, Windy= true } => {Humidity= high }
+#Rule107: (support rate: 0.214286, confidence rate: 0.428571)
+{Humidity= high } => {PlayTennis= N, outlook= sunny }
+#Rule108: (support rate: 0.214286, confidence rate: 0.600000)
+{PlayTennis= N } => {Humidity= high, outlook= sunny }
+#Rule109: (support rate: 0.214286, confidence rate: 0.750000)
+{Humidity= high, PlayTennis= N } => {outlook= sunny }
+#Rule110: (support rate: 0.214286, confidence rate: 0.600000)
+{outlook= sunny } => {Humidity= high, PlayTennis= N }
+#Rule111: (support rate: 0.214286, confidence rate: 1.000000)
+{Humidity= high, outlook= sunny } => {PlayTennis= N }
+#Rule112: (support rate: 0.214286, confidence rate: 1.000000)
+{PlayTennis= N, outlook= sunny } => {Humidity= high }
+#Rule113: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= high } => {PlayTennis= N, temperature= hot }
+#Rule114: (support rate: 0.142857, confidence rate: 0.400000)
+{PlayTennis= N } => {Humidity= high, temperature= hot }
+#Rule115: (support rate: 0.142857, confidence rate: 0.500000)
+{Humidity= high, PlayTennis= N } => {temperature= hot }
+#Rule116: (support rate: 0.142857, confidence rate: 0.500000)
+{temperature= hot } => {Humidity= high, PlayTennis= N }
+#Rule117: (support rate: 0.142857, confidence rate: 0.666667)
+{Humidity= high, temperature= hot } => {PlayTennis= N }
+#Rule118: (support rate: 0.142857, confidence rate: 1.000000)
+{PlayTennis= N, temperature= hot } => {Humidity= high }
+#Rule119: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= high } => {PlayTennis= N, temperature= mild }
+#Rule120: (support rate: 0.142857, confidence rate: 0.400000)
+{PlayTennis= N } => {Humidity= high, temperature= mild }
+#Rule121: (support rate: 0.142857, confidence rate: 0.500000)
+{Humidity= high, PlayTennis= N } => {temperature= mild }
+#Rule122: (support rate: 0.142857, confidence rate: 0.333333)
+{temperature= mild } => {Humidity= high, PlayTennis= N }
+#Rule123: (support rate: 0.142857, confidence rate: 0.500000)
+{Humidity= high, temperature= mild } => {PlayTennis= N }
+#Rule124: (support rate: 0.142857, confidence rate: 1.000000)
+{PlayTennis= N, temperature= mild } => {Humidity= high }
+#Rule125: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= high } => {PlayTennis= P, Windy= false }
+#Rule126: (support rate: 0.142857, confidence rate: 0.222222)
+{PlayTennis= P } => {Humidity= high, Windy= false }
+#Rule127: (support rate: 0.142857, confidence rate: 0.666667)
+{Humidity= high, PlayTennis= P } => {Windy= false }
+#Rule128: (support rate: 0.142857, confidence rate: 0.250000)
+{Windy= false } => {Humidity= high, PlayTennis= P }
+#Rule129: (support rate: 0.142857, confidence rate: 0.500000)
+{Humidity= high, Windy= false } => {PlayTennis= P }
+#Rule130: (support rate: 0.142857, confidence rate: 0.333333)
+{PlayTennis= P, Windy= false } => {Humidity= high }
+#Rule131: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= high } => {PlayTennis= P, outlook= overcast }
+#Rule132: (support rate: 0.142857, confidence rate: 0.222222)
+{PlayTennis= P } => {Humidity= high, outlook= overcast }
+#Rule133: (support rate: 0.142857, confidence rate: 0.666667)
+{Humidity= high, PlayTennis= P } => {outlook= overcast }
+#Rule134: (support rate: 0.142857, confidence rate: 0.500000)
+{outlook= overcast } => {Humidity= high, PlayTennis= P }
+#Rule135: (support rate: 0.142857, confidence rate: 1.000000)
+{Humidity= high, outlook= overcast } => {PlayTennis= P }
+#Rule136: (support rate: 0.142857, confidence rate: 0.500000)
+{PlayTennis= P, outlook= overcast } => {Humidity= high }
+#Rule137: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= high } => {PlayTennis= P, temperature= mild }
+#Rule138: (support rate: 0.142857, confidence rate: 0.222222)
+{PlayTennis= P } => {Humidity= high, temperature= mild }
+#Rule139: (support rate: 0.142857, confidence rate: 0.666667)
+{Humidity= high, PlayTennis= P } => {temperature= mild }
+#Rule140: (support rate: 0.142857, confidence rate: 0.333333)
+{temperature= mild } => {Humidity= high, PlayTennis= P }
+#Rule141: (support rate: 0.142857, confidence rate: 0.500000)
+{Humidity= high, temperature= mild } => {PlayTennis= P }
+#Rule142: (support rate: 0.142857, confidence rate: 0.500000)
+{PlayTennis= P, temperature= mild } => {Humidity= high }
+#Rule143: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= high } => {Windy= false, outlook= sunny }
+#Rule144: (support rate: 0.142857, confidence rate: 0.250000)
+{Windy= false } => {Humidity= high, outlook= sunny }
+#Rule145: (support rate: 0.142857, confidence rate: 0.500000)
+{Humidity= high, Windy= false } => {outlook= sunny }
+#Rule146: (support rate: 0.142857, confidence rate: 0.400000)
+{outlook= sunny } => {Humidity= high, Windy= false }
+#Rule147: (support rate: 0.142857, confidence rate: 0.666667)
+{Humidity= high, outlook= sunny } => {Windy= false }
+#Rule148: (support rate: 0.142857, confidence rate: 0.666667)
+{Windy= false, outlook= sunny } => {Humidity= high }
+#Rule149: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= high } => {Windy= false, temperature= hot }
+#Rule150: (support rate: 0.142857, confidence rate: 0.250000)
+{Windy= false } => {Humidity= high, temperature= hot }
+#Rule151: (support rate: 0.142857, confidence rate: 0.500000)
+{Humidity= high, Windy= false } => {temperature= hot }
+#Rule152: (support rate: 0.142857, confidence rate: 0.500000)
+{temperature= hot } => {Humidity= high, Windy= false }
+#Rule153: (support rate: 0.142857, confidence rate: 0.666667)
+{Humidity= high, temperature= hot } => {Windy= false }
+#Rule154: (support rate: 0.142857, confidence rate: 0.666667)
+{Windy= false, temperature= hot } => {Humidity= high }
+#Rule155: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= high } => {Windy= false, temperature= mild }
+#Rule156: (support rate: 0.142857, confidence rate: 0.250000)
+{Windy= false } => {Humidity= high, temperature= mild }
+#Rule157: (support rate: 0.142857, confidence rate: 0.500000)
+{Humidity= high, Windy= false } => {temperature= mild }
+#Rule158: (support rate: 0.142857, confidence rate: 0.333333)
+{temperature= mild } => {Humidity= high, Windy= false }
+#Rule159: (support rate: 0.142857, confidence rate: 0.500000)
+{Humidity= high, temperature= mild } => {Windy= false }
+#Rule160: (support rate: 0.142857, confidence rate: 0.666667)
+{Windy= false, temperature= mild } => {Humidity= high }
+#Rule161: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= high } => {Windy= true, temperature= mild }
+#Rule162: (support rate: 0.142857, confidence rate: 0.333333)
+{Windy= true } => {Humidity= high, temperature= mild }
+#Rule163: (support rate: 0.142857, confidence rate: 0.666667)
+{Humidity= high, Windy= true } => {temperature= mild }
+#Rule164: (support rate: 0.142857, confidence rate: 0.333333)
+{temperature= mild } => {Humidity= high, Windy= true }
+#Rule165: (support rate: 0.142857, confidence rate: 0.500000)
+{Humidity= high, temperature= mild } => {Windy= true }
+#Rule166: (support rate: 0.142857, confidence rate: 0.666667)
+{Windy= true, temperature= mild } => {Humidity= high }
+#Rule167: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= high } => {outlook= rain, temperature= mild }
+#Rule168: (support rate: 0.142857, confidence rate: 0.400000)
+{outlook= rain } => {Humidity= high, temperature= mild }
+#Rule169: (support rate: 0.142857, confidence rate: 1.000000)
+{Humidity= high, outlook= rain } => {temperature= mild }
+#Rule170: (support rate: 0.142857, confidence rate: 0.333333)
+{temperature= mild } => {Humidity= high, outlook= rain }
+#Rule171: (support rate: 0.142857, confidence rate: 0.500000)
+{Humidity= high, temperature= mild } => {outlook= rain }
+#Rule172: (support rate: 0.142857, confidence rate: 0.666667)
+{outlook= rain, temperature= mild } => {Humidity= high }
+#Rule173: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= high } => {outlook= sunny, temperature= hot }
+#Rule174: (support rate: 0.142857, confidence rate: 0.400000)
+{outlook= sunny } => {Humidity= high, temperature= hot }
+#Rule175: (support rate: 0.142857, confidence rate: 0.666667)
+{Humidity= high, outlook= sunny } => {temperature= hot }
+#Rule176: (support rate: 0.142857, confidence rate: 0.500000)
+{temperature= hot } => {Humidity= high, outlook= sunny }
+#Rule177: (support rate: 0.142857, confidence rate: 0.666667)
+{Humidity= high, temperature= hot } => {outlook= sunny }
+#Rule178: (support rate: 0.142857, confidence rate: 1.000000)
+{outlook= sunny, temperature= hot } => {Humidity= high }
+#Rule179: (support rate: 0.285714, confidence rate: 0.571429)
+{Humidity= normal } => {PlayTennis= P, Windy= false }
+#Rule180: (support rate: 0.285714, confidence rate: 0.444444)
+{PlayTennis= P } => {Humidity= normal, Windy= false }
+#Rule181: (support rate: 0.285714, confidence rate: 0.666667)
+{Humidity= normal, PlayTennis= P } => {Windy= false }
+#Rule182: (support rate: 0.285714, confidence rate: 0.500000)
+{Windy= false } => {Humidity= normal, PlayTennis= P }
+#Rule183: (support rate: 0.285714, confidence rate: 1.000000)
+{Humidity= normal, Windy= false } => {PlayTennis= P }
+#Rule184: (support rate: 0.285714, confidence rate: 0.666667)
+{PlayTennis= P, Windy= false } => {Humidity= normal }
+#Rule185: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= normal } => {PlayTennis= P, Windy= true }
+#Rule186: (support rate: 0.142857, confidence rate: 0.222222)
+{PlayTennis= P } => {Humidity= normal, Windy= true }
+#Rule187: (support rate: 0.142857, confidence rate: 0.333333)
+{Humidity= normal, PlayTennis= P } => {Windy= true }
+#Rule188: (support rate: 0.142857, confidence rate: 0.333333)
+{Windy= true } => {Humidity= normal, PlayTennis= P }
+#Rule189: (support rate: 0.142857, confidence rate: 0.666667)
+{Humidity= normal, Windy= true } => {PlayTennis= P }
+#Rule190: (support rate: 0.142857, confidence rate: 0.666667)
+{PlayTennis= P, Windy= true } => {Humidity= normal }
+#Rule191: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= normal } => {PlayTennis= P, outlook= overcast }
+#Rule192: (support rate: 0.142857, confidence rate: 0.222222)
+{PlayTennis= P } => {Humidity= normal, outlook= overcast }
+#Rule193: (support rate: 0.142857, confidence rate: 0.333333)
+{Humidity= normal, PlayTennis= P } => {outlook= overcast }
+#Rule194: (support rate: 0.142857, confidence rate: 0.500000)
+{outlook= overcast } => {Humidity= normal, PlayTennis= P }
+#Rule195: (support rate: 0.142857, confidence rate: 1.000000)
+{Humidity= normal, outlook= overcast } => {PlayTennis= P }
+#Rule196: (support rate: 0.142857, confidence rate: 0.500000)
+{PlayTennis= P, outlook= overcast } => {Humidity= normal }
+#Rule197: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= normal } => {PlayTennis= P, outlook= rain }
+#Rule198: (support rate: 0.142857, confidence rate: 0.222222)
+{PlayTennis= P } => {Humidity= normal, outlook= rain }
+#Rule199: (support rate: 0.142857, confidence rate: 0.333333)
+{Humidity= normal, PlayTennis= P } => {outlook= rain }
+#Rule200: (support rate: 0.142857, confidence rate: 0.400000)
+{outlook= rain } => {Humidity= normal, PlayTennis= P }
+#Rule201: (support rate: 0.142857, confidence rate: 0.666667)
+{Humidity= normal, outlook= rain } => {PlayTennis= P }
+#Rule202: (support rate: 0.142857, confidence rate: 0.666667)
+{PlayTennis= P, outlook= rain } => {Humidity= normal }
+#Rule203: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= normal } => {PlayTennis= P, outlook= sunny }
+#Rule204: (support rate: 0.142857, confidence rate: 0.222222)
+{PlayTennis= P } => {Humidity= normal, outlook= sunny }
+#Rule205: (support rate: 0.142857, confidence rate: 0.333333)
+{Humidity= normal, PlayTennis= P } => {outlook= sunny }
+#Rule206: (support rate: 0.142857, confidence rate: 0.400000)
+{outlook= sunny } => {Humidity= normal, PlayTennis= P }
+#Rule207: (support rate: 0.142857, confidence rate: 1.000000)
+{Humidity= normal, outlook= sunny } => {PlayTennis= P }
+#Rule208: (support rate: 0.142857, confidence rate: 1.000000)
+{PlayTennis= P, outlook= sunny } => {Humidity= normal }
+#Rule209: (support rate: 0.214286, confidence rate: 0.428571)
+{Humidity= normal } => {PlayTennis= P, temperature= cool }
+#Rule210: (support rate: 0.214286, confidence rate: 0.333333)
+{PlayTennis= P } => {Humidity= normal, temperature= cool }
+#Rule211: (support rate: 0.214286, confidence rate: 0.500000)
+{Humidity= normal, PlayTennis= P } => {temperature= cool }
+#Rule212: (support rate: 0.214286, confidence rate: 0.750000)
+{temperature= cool } => {Humidity= normal, PlayTennis= P }
+#Rule213: (support rate: 0.214286, confidence rate: 0.750000)
+{Humidity= normal, temperature= cool } => {PlayTennis= P }
+#Rule214: (support rate: 0.214286, confidence rate: 1.000000)
+{PlayTennis= P, temperature= cool } => {Humidity= normal }
+#Rule215: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= normal } => {PlayTennis= P, temperature= mild }
+#Rule216: (support rate: 0.142857, confidence rate: 0.222222)
+{PlayTennis= P } => {Humidity= normal, temperature= mild }
+#Rule217: (support rate: 0.142857, confidence rate: 0.333333)
+{Humidity= normal, PlayTennis= P } => {temperature= mild }
+#Rule218: (support rate: 0.142857, confidence rate: 0.333333)
+{temperature= mild } => {Humidity= normal, PlayTennis= P }
+#Rule219: (support rate: 0.142857, confidence rate: 1.000000)
+{Humidity= normal, temperature= mild } => {PlayTennis= P }
+#Rule220: (support rate: 0.142857, confidence rate: 0.500000)
+{PlayTennis= P, temperature= mild } => {Humidity= normal }
+#Rule221: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= normal } => {Windy= false, outlook= rain }
+#Rule222: (support rate: 0.142857, confidence rate: 0.250000)
+{Windy= false } => {Humidity= normal, outlook= rain }
+#Rule223: (support rate: 0.142857, confidence rate: 0.500000)
+{Humidity= normal, Windy= false } => {outlook= rain }
+#Rule224: (support rate: 0.142857, confidence rate: 0.400000)
+{outlook= rain } => {Humidity= normal, Windy= false }
+#Rule225: (support rate: 0.142857, confidence rate: 0.666667)
+{Humidity= normal, outlook= rain } => {Windy= false }
+#Rule226: (support rate: 0.142857, confidence rate: 0.666667)
+{Windy= false, outlook= rain } => {Humidity= normal }
+#Rule227: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= normal } => {Windy= false, temperature= cool }
+#Rule228: (support rate: 0.142857, confidence rate: 0.250000)
+{Windy= false } => {Humidity= normal, temperature= cool }
+#Rule229: (support rate: 0.142857, confidence rate: 0.500000)
+{Humidity= normal, Windy= false } => {temperature= cool }
+#Rule230: (support rate: 0.142857, confidence rate: 0.500000)
+{temperature= cool } => {Humidity= normal, Windy= false }
+#Rule231: (support rate: 0.142857, confidence rate: 0.500000)
+{Humidity= normal, temperature= cool } => {Windy= false }
+#Rule232: (support rate: 0.142857, confidence rate: 1.000000)
+{Windy= false, temperature= cool } => {Humidity= normal }
+#Rule233: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= normal } => {Windy= true, temperature= cool }
+#Rule234: (support rate: 0.142857, confidence rate: 0.333333)
+{Windy= true } => {Humidity= normal, temperature= cool }
+#Rule235: (support rate: 0.142857, confidence rate: 0.666667)
+{Humidity= normal, Windy= true } => {temperature= cool }
+#Rule236: (support rate: 0.142857, confidence rate: 0.500000)
+{temperature= cool } => {Humidity= normal, Windy= true }
+#Rule237: (support rate: 0.142857, confidence rate: 0.500000)
+{Humidity= normal, temperature= cool } => {Windy= true }
+#Rule238: (support rate: 0.142857, confidence rate: 1.000000)
+{Windy= true, temperature= cool } => {Humidity= normal }
+#Rule239: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= normal } => {outlook= rain, temperature= cool }
+#Rule240: (support rate: 0.142857, confidence rate: 0.400000)
+{outlook= rain } => {Humidity= normal, temperature= cool }
+#Rule241: (support rate: 0.142857, confidence rate: 0.666667)
+{Humidity= normal, outlook= rain } => {temperature= cool }
+#Rule242: (support rate: 0.142857, confidence rate: 0.500000)
+{temperature= cool } => {Humidity= normal, outlook= rain }
+#Rule243: (support rate: 0.142857, confidence rate: 0.500000)
+{Humidity= normal, temperature= cool } => {outlook= rain }
+#Rule244: (support rate: 0.142857, confidence rate: 1.000000)
+{outlook= rain, temperature= cool } => {Humidity= normal }
+#Rule245: (support rate: 0.142857, confidence rate: 0.400000)
+{PlayTennis= N } => {Windy= false, outlook= sunny }
+#Rule246: (support rate: 0.142857, confidence rate: 0.250000)
+{Windy= false } => {PlayTennis= N, outlook= sunny }
+#Rule247: (support rate: 0.142857, confidence rate: 1.000000)
+{PlayTennis= N, Windy= false } => {outlook= sunny }
+#Rule248: (support rate: 0.142857, confidence rate: 0.400000)
+{outlook= sunny } => {PlayTennis= N, Windy= false }
+#Rule249: (support rate: 0.142857, confidence rate: 0.666667)
+{PlayTennis= N, outlook= sunny } => {Windy= false }
+#Rule250: (support rate: 0.142857, confidence rate: 0.666667)
+{Windy= false, outlook= sunny } => {PlayTennis= N }
+#Rule251: (support rate: 0.142857, confidence rate: 0.400000)
+{PlayTennis= N } => {Windy= true, outlook= rain }
+#Rule252: (support rate: 0.142857, confidence rate: 0.333333)
+{Windy= true } => {PlayTennis= N, outlook= rain }
+#Rule253: (support rate: 0.142857, confidence rate: 0.666667)
+{PlayTennis= N, Windy= true } => {outlook= rain }
+#Rule254: (support rate: 0.142857, confidence rate: 0.400000)
+{outlook= rain } => {PlayTennis= N, Windy= true }
+#Rule255: (support rate: 0.142857, confidence rate: 1.000000)
+{PlayTennis= N, outlook= rain } => {Windy= true }
+#Rule256: (support rate: 0.142857, confidence rate: 1.000000)
+{Windy= true, outlook= rain } => {PlayTennis= N }
+#Rule257: (support rate: 0.142857, confidence rate: 0.400000)
+{PlayTennis= N } => {outlook= sunny, temperature= hot }
+#Rule258: (support rate: 0.142857, confidence rate: 0.400000)
+{outlook= sunny } => {PlayTennis= N, temperature= hot }
+#Rule259: (support rate: 0.142857, confidence rate: 0.666667)
+{PlayTennis= N, outlook= sunny } => {temperature= hot }
+#Rule260: (support rate: 0.142857, confidence rate: 0.500000)
+{temperature= hot } => {PlayTennis= N, outlook= sunny }
+#Rule261: (support rate: 0.142857, confidence rate: 1.000000)
+{PlayTennis= N, temperature= hot } => {outlook= sunny }
+#Rule262: (support rate: 0.142857, confidence rate: 1.000000)
+{outlook= sunny, temperature= hot } => {PlayTennis= N }
+#Rule263: (support rate: 0.142857, confidence rate: 0.222222)
+{PlayTennis= P } => {Windy= false, outlook= overcast }
+#Rule264: (support rate: 0.142857, confidence rate: 0.250000)
+{Windy= false } => {PlayTennis= P, outlook= overcast }
+#Rule265: (support rate: 0.142857, confidence rate: 0.333333)
+{PlayTennis= P, Windy= false } => {outlook= overcast }
+#Rule266: (support rate: 0.142857, confidence rate: 0.500000)
+{outlook= overcast } => {PlayTennis= P, Windy= false }
+#Rule267: (support rate: 0.142857, confidence rate: 0.500000)
+{PlayTennis= P, outlook= overcast } => {Windy= false }
+#Rule268: (support rate: 0.142857, confidence rate: 1.000000)
+{Windy= false, outlook= overcast } => {PlayTennis= P }
+#Rule269: (support rate: 0.214286, confidence rate: 0.333333)
+{PlayTennis= P } => {Windy= false, outlook= rain }
+#Rule270: (support rate: 0.214286, confidence rate: 0.375000)
+{Windy= false } => {PlayTennis= P, outlook= rain }
+#Rule271: (support rate: 0.214286, confidence rate: 0.500000)
+{PlayTennis= P, Windy= false } => {outlook= rain }
+#Rule272: (support rate: 0.214286, confidence rate: 0.600000)
+{outlook= rain } => {PlayTennis= P, Windy= false }
+#Rule273: (support rate: 0.214286, confidence rate: 1.000000)
+{PlayTennis= P, outlook= rain } => {Windy= false }
+#Rule274: (support rate: 0.214286, confidence rate: 1.000000)
+{Windy= false, outlook= rain } => {PlayTennis= P }
+#Rule275: (support rate: 0.142857, confidence rate: 0.222222)
+{PlayTennis= P } => {Windy= false, temperature= cool }
+#Rule276: (support rate: 0.142857, confidence rate: 0.250000)
+{Windy= false } => {PlayTennis= P, temperature= cool }
+#Rule277: (support rate: 0.142857, confidence rate: 0.333333)
+{PlayTennis= P, Windy= false } => {temperature= cool }
+#Rule278: (support rate: 0.142857, confidence rate: 0.500000)
+{temperature= cool } => {PlayTennis= P, Windy= false }
+#Rule279: (support rate: 0.142857, confidence rate: 0.666667)
+{PlayTennis= P, temperature= cool } => {Windy= false }
+#Rule280: (support rate: 0.142857, confidence rate: 1.000000)
+{Windy= false, temperature= cool } => {PlayTennis= P }
+#Rule281: (support rate: 0.142857, confidence rate: 0.222222)
+{PlayTennis= P } => {Windy= false, temperature= hot }
+#Rule282: (support rate: 0.142857, confidence rate: 0.250000)
+{Windy= false } => {PlayTennis= P, temperature= hot }
+#Rule283: (support rate: 0.142857, confidence rate: 0.333333)
+{PlayTennis= P, Windy= false } => {temperature= hot }
+#Rule284: (support rate: 0.142857, confidence rate: 0.500000)
+{temperature= hot } => {PlayTennis= P, Windy= false }
+#Rule285: (support rate: 0.142857, confidence rate: 1.000000)
+{PlayTennis= P, temperature= hot } => {Windy= false }
+#Rule286: (support rate: 0.142857, confidence rate: 0.666667)
+{Windy= false, temperature= hot } => {PlayTennis= P }
+#Rule287: (support rate: 0.142857, confidence rate: 0.222222)
+{PlayTennis= P } => {Windy= false, temperature= mild }
+#Rule288: (support rate: 0.142857, confidence rate: 0.250000)
+{Windy= false } => {PlayTennis= P, temperature= mild }
+#Rule289: (support rate: 0.142857, confidence rate: 0.333333)
+{PlayTennis= P, Windy= false } => {temperature= mild }
+#Rule290: (support rate: 0.142857, confidence rate: 0.333333)
+{temperature= mild } => {PlayTennis= P, Windy= false }
+#Rule291: (support rate: 0.142857, confidence rate: 0.500000)
+{PlayTennis= P, temperature= mild } => {Windy= false }
+#Rule292: (support rate: 0.142857, confidence rate: 0.666667)
+{Windy= false, temperature= mild } => {PlayTennis= P }
+#Rule293: (support rate: 0.142857, confidence rate: 0.222222)
+{PlayTennis= P } => {Windy= true, outlook= overcast }
+#Rule294: (support rate: 0.142857, confidence rate: 0.333333)
+{Windy= true } => {PlayTennis= P, outlook= overcast }
+#Rule295: (support rate: 0.142857, confidence rate: 0.666667)
+{PlayTennis= P, Windy= true } => {outlook= overcast }
+#Rule296: (support rate: 0.142857, confidence rate: 0.500000)
+{outlook= overcast } => {PlayTennis= P, Windy= true }
+#Rule297: (support rate: 0.142857, confidence rate: 0.500000)
+{PlayTennis= P, outlook= overcast } => {Windy= true }
+#Rule298: (support rate: 0.142857, confidence rate: 1.000000)
+{Windy= true, outlook= overcast } => {PlayTennis= P }
+#Rule299: (support rate: 0.142857, confidence rate: 0.222222)
+{PlayTennis= P } => {Windy= true, temperature= mild }
+#Rule300: (support rate: 0.142857, confidence rate: 0.333333)
+{Windy= true } => {PlayTennis= P, temperature= mild }
+#Rule301: (support rate: 0.142857, confidence rate: 0.666667)
+{PlayTennis= P, Windy= true } => {temperature= mild }
+#Rule302: (support rate: 0.142857, confidence rate: 0.333333)
+{temperature= mild } => {PlayTennis= P, Windy= true }
+#Rule303: (support rate: 0.142857, confidence rate: 0.500000)
+{PlayTennis= P, temperature= mild } => {Windy= true }
+#Rule304: (support rate: 0.142857, confidence rate: 0.666667)
+{Windy= true, temperature= mild } => {PlayTennis= P }
+#Rule305: (support rate: 0.142857, confidence rate: 0.222222)
+{PlayTennis= P } => {outlook= overcast, temperature= hot }
+#Rule306: (support rate: 0.142857, confidence rate: 0.500000)
+{outlook= overcast } => {PlayTennis= P, temperature= hot }
+#Rule307: (support rate: 0.142857, confidence rate: 0.500000)
+{PlayTennis= P, outlook= overcast } => {temperature= hot }
+#Rule308: (support rate: 0.142857, confidence rate: 0.500000)
+{temperature= hot } => {PlayTennis= P, outlook= overcast }
+#Rule309: (support rate: 0.142857, confidence rate: 1.000000)
+{PlayTennis= P, temperature= hot } => {outlook= overcast }
+#Rule310: (support rate: 0.142857, confidence rate: 1.000000)
+{outlook= overcast, temperature= hot } => {PlayTennis= P }
+#Rule311: (support rate: 0.142857, confidence rate: 0.222222)
+{PlayTennis= P } => {outlook= rain, temperature= mild }
+#Rule312: (support rate: 0.142857, confidence rate: 0.400000)
+{outlook= rain } => {PlayTennis= P, temperature= mild }
+#Rule313: (support rate: 0.142857, confidence rate: 0.666667)
+{PlayTennis= P, outlook= rain } => {temperature= mild }
+#Rule314: (support rate: 0.142857, confidence rate: 0.333333)
+{temperature= mild } => {PlayTennis= P, outlook= rain }
+#Rule315: (support rate: 0.142857, confidence rate: 0.500000)
+{PlayTennis= P, temperature= mild } => {outlook= rain }
+#Rule316: (support rate: 0.142857, confidence rate: 0.666667)
+{outlook= rain, temperature= mild } => {PlayTennis= P }
+#Rule317: (support rate: 0.142857, confidence rate: 0.250000)
+{Windy= false } => {outlook= overcast, temperature= hot }
+#Rule318: (support rate: 0.142857, confidence rate: 0.500000)
+{outlook= overcast } => {Windy= false, temperature= hot }
+#Rule319: (support rate: 0.142857, confidence rate: 1.000000)
+{Windy= false, outlook= overcast } => {temperature= hot }
+#Rule320: (support rate: 0.142857, confidence rate: 0.500000)
+{temperature= hot } => {Windy= false, outlook= overcast }
+#Rule321: (support rate: 0.142857, confidence rate: 0.666667)
+{Windy= false, temperature= hot } => {outlook= overcast }
+#Rule322: (support rate: 0.142857, confidence rate: 1.000000)
+{outlook= overcast, temperature= hot } => {Windy= false }
+#Rule323: (support rate: 0.142857, confidence rate: 0.250000)
+{Windy= false } => {outlook= rain, temperature= mild }
+#Rule324: (support rate: 0.142857, confidence rate: 0.400000)
+{outlook= rain } => {Windy= false, temperature= mild }
+#Rule325: (support rate: 0.142857, confidence rate: 0.666667)
+{Windy= false, outlook= rain } => {temperature= mild }
+#Rule326: (support rate: 0.142857, confidence rate: 0.333333)
+{temperature= mild } => {Windy= false, outlook= rain }
+#Rule327: (support rate: 0.142857, confidence rate: 0.666667)
+{Windy= false, temperature= mild } => {outlook= rain }
+#Rule328: (support rate: 0.142857, confidence rate: 0.666667)
+{outlook= rain, temperature= mild } => {Windy= false }
+#Rule329: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= high } => {PlayTennis= N, Windy= false, outlook= sunny }
+#Rule330: (support rate: 0.142857, confidence rate: 0.400000)
+{PlayTennis= N } => {Humidity= high, Windy= false, outlook= sunny }
+#Rule331: (support rate: 0.142857, confidence rate: 0.500000)
+{Humidity= high, PlayTennis= N } => {Windy= false, outlook= sunny }
+#Rule332: (support rate: 0.142857, confidence rate: 0.250000)
+{Windy= false } => {Humidity= high, PlayTennis= N, outlook= sunny }
+#Rule333: (support rate: 0.142857, confidence rate: 0.500000)
+{Humidity= high, Windy= false } => {PlayTennis= N, outlook= sunny }
+#Rule334: (support rate: 0.142857, confidence rate: 1.000000)
+{PlayTennis= N, Windy= false } => {Humidity= high, outlook= sunny }
+#Rule335: (support rate: 0.142857, confidence rate: 1.000000)
+{Humidity= high, PlayTennis= N, Windy= false } => {outlook= sunny }
+#Rule336: (support rate: 0.142857, confidence rate: 0.400000)
+{outlook= sunny } => {Humidity= high, PlayTennis= N, Windy= false }
+#Rule337: (support rate: 0.142857, confidence rate: 0.666667)
+{Humidity= high, outlook= sunny } => {PlayTennis= N, Windy= false }
+#Rule338: (support rate: 0.142857, confidence rate: 0.666667)
+{PlayTennis= N, outlook= sunny } => {Humidity= high, Windy= false }
+#Rule339: (support rate: 0.142857, confidence rate: 0.666667)
+{Humidity= high, PlayTennis= N, outlook= sunny } => {Windy= false }
+#Rule340: (support rate: 0.142857, confidence rate: 0.666667)
+{Windy= false, outlook= sunny } => {Humidity= high, PlayTennis= N }
+#Rule341: (support rate: 0.142857, confidence rate: 1.000000)
+{Humidity= high, Windy= false, outlook= sunny } => {PlayTennis= N }
+#Rule342: (support rate: 0.142857, confidence rate: 1.000000)
+{PlayTennis= N, Windy= false, outlook= sunny } => {Humidity= high }
+#Rule343: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= high } => {PlayTennis= N, outlook= sunny, temperature= hot }
+#Rule344: (support rate: 0.142857, confidence rate: 0.400000)
+{PlayTennis= N } => {Humidity= high, outlook= sunny, temperature= hot }
+#Rule345: (support rate: 0.142857, confidence rate: 0.500000)
+{Humidity= high, PlayTennis= N } => {outlook= sunny, temperature= hot }
+#Rule346: (support rate: 0.142857, confidence rate: 0.400000)
+{outlook= sunny } => {Humidity= high, PlayTennis= N, temperature= hot }
+#Rule347: (support rate: 0.142857, confidence rate: 0.666667)
+{Humidity= high, outlook= sunny } => {PlayTennis= N, temperature= hot }
+#Rule348: (support rate: 0.142857, confidence rate: 0.666667)
+{PlayTennis= N, outlook= sunny } => {Humidity= high, temperature= hot }
+#Rule349: (support rate: 0.142857, confidence rate: 0.666667)
+{Humidity= high, PlayTennis= N, outlook= sunny } => {temperature= hot }
+#Rule350: (support rate: 0.142857, confidence rate: 0.500000)
+{temperature= hot } => {Humidity= high, PlayTennis= N, outlook= sunny }
+#Rule351: (support rate: 0.142857, confidence rate: 0.666667)
+{Humidity= high, temperature= hot } => {PlayTennis= N, outlook= sunny }
+#Rule352: (support rate: 0.142857, confidence rate: 1.000000)
+{PlayTennis= N, temperature= hot } => {Humidity= high, outlook= sunny }
+#Rule353: (support rate: 0.142857, confidence rate: 1.000000)
+{Humidity= high, PlayTennis= N, temperature= hot } => {outlook= sunny }
+#Rule354: (support rate: 0.142857, confidence rate: 1.000000)
+{outlook= sunny, temperature= hot } => {Humidity= high, PlayTennis= N }
+#Rule355: (support rate: 0.142857, confidence rate: 1.000000)
+{Humidity= high, outlook= sunny, temperature= hot } => {PlayTennis= N }
+#Rule356: (support rate: 0.142857, confidence rate: 1.000000)
+{PlayTennis= N, outlook= sunny, temperature= hot } => {Humidity= high }
+#Rule357: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= normal } => {PlayTennis= P, Windy= false, outlook= rain }
+#Rule358: (support rate: 0.142857, confidence rate: 0.222222)
+{PlayTennis= P } => {Humidity= normal, Windy= false, outlook= rain }
+#Rule359: (support rate: 0.142857, confidence rate: 0.333333)
+{Humidity= normal, PlayTennis= P } => {Windy= false, outlook= rain }
+#Rule360: (support rate: 0.142857, confidence rate: 0.250000)
+{Windy= false } => {Humidity= normal, PlayTennis= P, outlook= rain }
+#Rule361: (support rate: 0.142857, confidence rate: 0.500000)
+{Humidity= normal, Windy= false } => {PlayTennis= P, outlook= rain }
+#Rule362: (support rate: 0.142857, confidence rate: 0.333333)
+{PlayTennis= P, Windy= false } => {Humidity= normal, outlook= rain }
+#Rule363: (support rate: 0.142857, confidence rate: 0.500000)
+{Humidity= normal, PlayTennis= P, Windy= false } => {outlook= rain }
+#Rule364: (support rate: 0.142857, confidence rate: 0.400000)
+{outlook= rain } => {Humidity= normal, PlayTennis= P, Windy= false }
+#Rule365: (support rate: 0.142857, confidence rate: 0.666667)
+{Humidity= normal, outlook= rain } => {PlayTennis= P, Windy= false }
+#Rule366: (support rate: 0.142857, confidence rate: 0.666667)
+{PlayTennis= P, outlook= rain } => {Humidity= normal, Windy= false }
+#Rule367: (support rate: 0.142857, confidence rate: 1.000000)
+{Humidity= normal, PlayTennis= P, outlook= rain } => {Windy= false }
+#Rule368: (support rate: 0.142857, confidence rate: 0.666667)
+{Windy= false, outlook= rain } => {Humidity= normal, PlayTennis= P }
+#Rule369: (support rate: 0.142857, confidence rate: 1.000000)
+{Humidity= normal, Windy= false, outlook= rain } => {PlayTennis= P }
+#Rule370: (support rate: 0.142857, confidence rate: 0.666667)
+{PlayTennis= P, Windy= false, outlook= rain } => {Humidity= normal }
+#Rule371: (support rate: 0.142857, confidence rate: 0.285714)
+{Humidity= normal } => {PlayTennis= P, Windy= false, temperature= cool }
+#Rule372: (support rate: 0.142857, confidence rate: 0.222222)
+{PlayTennis= P } => {Humidity= normal, Windy= false, temperature= cool }
+#Rule373: (support rate: 0.142857, confidence rate: 0.333333)
+{Humidity= normal, PlayTennis= P } => {Windy= false, temperature= cool }
+#Rule374: (support rate: 0.142857, confidence rate: 0.250000)
+{Windy= false } => {Humidity= normal, PlayTennis= P, temperature= cool }
+#Rule375: (support rate: 0.142857, confidence rate: 0.500000)
+{Humidity= normal, Windy= false } => {PlayTennis= P, temperature= cool }
+#Rule376: (support rate: 0.142857, confidence rate: 0.333333)
+{PlayTennis= P, Windy= false } => {Humidity= normal, temperature= cool }
+#Rule377: (support rate: 0.142857, confidence rate: 0.500000)
+{Humidity= normal, PlayTennis= P, Windy= false } => {temperature= cool }
+#Rule378: (support rate: 0.142857, confidence rate: 0.500000)
+{temperature= cool } => {Humidity= normal, PlayTennis= P, Windy= false }
+#Rule379: (support rate: 0.142857, confidence rate: 0.500000)
+{Humidity= normal, temperature= cool } => {PlayTennis= P, Windy= false }
+#Rule380: (support rate: 0.142857, confidence rate: 0.666667)
+{PlayTennis= P, temperature= cool } => {Humidity= normal, Windy= false }
+#Rule381: (support rate: 0.142857, confidence rate: 0.666667)
+{Humidity= normal, PlayTennis= P, temperature= cool } => {Windy= false }
+#Rule382: (support rate: 0.142857, confidence rate: 1.000000)
+{Windy= false, temperature= cool } => {Humidity= normal, PlayTennis= P }
+#Rule383: (support rate: 0.142857, confidence rate: 1.000000)
+{Humidity= normal, Windy= false, temperature= cool } => {PlayTennis= P }
+#Rule384: (support rate: 0.142857, confidence rate: 1.000000)
+{PlayTennis= P, Windy= false, temperature= cool } => {Humidity= normal }
+#Rule385: (support rate: 0.142857, confidence rate: 0.222222)
+{PlayTennis= P } => {Windy= false, outlook= overcast, temperature= hot }
+#Rule386: (support rate: 0.142857, confidence rate: 0.250000)
+{Windy= false } => {PlayTennis= P, outlook= overcast, temperature= hot }
+#Rule387: (support rate: 0.142857, confidence rate: 0.333333)
+{PlayTennis= P, Windy= false } => {outlook= overcast, temperature= hot }
+#Rule388: (support rate: 0.142857, confidence rate: 0.500000)
+{outlook= overcast } => {PlayTennis= P, Windy= false, temperature= hot }
+#Rule389: (support rate: 0.142857, confidence rate: 0.500000)
+{PlayTennis= P, outlook= overcast } => {Windy= false, temperature= hot }
+#Rule390: (support rate: 0.142857, confidence rate: 1.000000)
+{Windy= false, outlook= overcast } => {PlayTennis= P, temperature= hot }
+#Rule391: (support rate: 0.142857, confidence rate: 1.000000)
+{PlayTennis= P, Windy= false, outlook= overcast } => {temperature= hot }
+#Rule392: (support rate: 0.142857, confidence rate: 0.500000)
+{temperature= hot } => {PlayTennis= P, Windy= false, outlook= overcast }
+#Rule393: (support rate: 0.142857, confidence rate: 1.000000)
+{PlayTennis= P, temperature= hot } => {Windy= false, outlook= overcast }
+#Rule394: (support rate: 0.142857, confidence rate: 0.666667)
+{Windy= false, temperature= hot } => {PlayTennis= P, outlook= overcast }
+#Rule395: (support rate: 0.142857, confidence rate: 1.000000)
+{PlayTennis= P, Windy= false, temperature= hot } => {outlook= overcast }
+#Rule396: (support rate: 0.142857, confidence rate: 1.000000)
+{outlook= overcast, temperature= hot } => {PlayTennis= P, Windy= false }
+#Rule397: (support rate: 0.142857, confidence rate: 1.000000)
+{PlayTennis= P, outlook= overcast, temperature= hot } => {Windy= false }
+#Rule398: (support rate: 0.142857, confidence rate: 1.000000)
+{Windy= false, outlook= overcast, temperature= hot } => {PlayTennis= P }
+#Rule399: (support rate: 0.142857, confidence rate: 0.222222)
+{PlayTennis= P } => {Windy= false, outlook= rain, temperature= mild }
+#Rule400: (support rate: 0.142857, confidence rate: 0.250000)
+{Windy= false } => {PlayTennis= P, outlook= rain, temperature= mild }
+#Rule401: (support rate: 0.142857, confidence rate: 0.333333)
+{PlayTennis= P, Windy= false } => {outlook= rain, temperature= mild }
+#Rule402: (support rate: 0.142857, confidence rate: 0.400000)
+{outlook= rain } => {PlayTennis= P, Windy= false, temperature= mild }
+#Rule403: (support rate: 0.142857, confidence rate: 0.666667)
+{PlayTennis= P, outlook= rain } => {Windy= false, temperature= mild }
+#Rule404: (support rate: 0.142857, confidence rate: 0.666667)
+{Windy= false, outlook= rain } => {PlayTennis= P, temperature= mild }
+#Rule405: (support rate: 0.142857, confidence rate: 0.666667)
+{PlayTennis= P, Windy= false, outlook= rain } => {temperature= mild }
+#Rule406: (support rate: 0.142857, confidence rate: 0.333333)
+{temperature= mild } => {PlayTennis= P, Windy= false, outlook= rain }
+#Rule407: (support rate: 0.142857, confidence rate: 0.500000)
+{PlayTennis= P, temperature= mild } => {Windy= false, outlook= rain }
+#Rule408: (support rate: 0.142857, confidence rate: 0.666667)
+{Windy= false, temperature= mild } => {PlayTennis= P, outlook= rain }
+#Rule409: (support rate: 0.142857, confidence rate: 1.000000)
+{PlayTennis= P, Windy= false, temperature= mild } => {outlook= rain }
+#Rule410: (support rate: 0.142857, confidence rate: 0.666667)
+{outlook= rain, temperature= mild } => {PlayTennis= P, Windy= false }
+#Rule411: (support rate: 0.142857, confidence rate: 1.000000)
+{PlayTennis= P, outlook= rain, temperature= mild } => {Windy= false }
+#Rule412: (support rate: 0.142857, confidence rate: 1.000000)
+{Windy= false, outlook= rain, temperature= mild } => {PlayTennis= P }

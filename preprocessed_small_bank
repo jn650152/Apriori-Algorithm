@@ -1,0 +1,8 @@
+age<=41 41<age<=64 age>64 job=unemployed job=services job=management job=blue-collar job=self-employed job=technician job=entrepreneur job=admin job=student job=housemaid job=retired job=unknown marital=married marital=single marital=divorced education=primary education=secondary education=tertiary education=unknown default=yes balance<=21520 21520<balance<=46354 balance>46354 housing=yes loan=yes contact=cellular contact=unknown contact=telephone duration<=1011 1011<duration<=2018 duration>2018 campaign<=17 17<campaign<=33 campaign>33 pdays<=289 289<pdays<=580 pdays>580 previous<=8 8<previous<=16 previous>16 poutcome=unknown poutcome=failure poutcome=other poutcome=success y=yes
+0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0
+0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 1 0 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0
+1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0
+1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 1 0 0 1 1 0 0 0 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0
+1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 1 0 0 0 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0
+1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 1 0 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0
+1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 0 1 0 1 0 0 0 1 0 0 0

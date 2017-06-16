@@ -1,0 +1,50 @@
+THere are 3 C++ source code files:
+main.cpp: the main part of the program
+functions.h
+functions.cpp:defines all the functions
+
+void read_parameters(string &file_name, float &support, float &confidence):read file name, support rate and confidence rate
+void save_data(string file_name,int &attribute_count,vector< vector<string> > &info, int &line_count):save file's data into a vector info
+void get_set_item(vector< vector<string> > info, int attribute_count, int line_count, map<string,int> &set_item,int &total):get the set of items and their correponding number of occurence
+void init_filter(map<string, int> set_item,int threshold,vector< vector<string> > &filtered):get and save the frequent one-item itemset
+void join(vector< vector<string> > temp, vector< vector<string> > &temp1,vector< vector<string> > filtered):find joined itemset and check whether all of their subsets are frequent and save possible combination after joining in temp1 
+void find_possible_join(vector< vector<string> >::iterator it, vector< vector<string> >::iterator jt, bool &flag, vector<string> &row):find joined itemset(only one diff)
+void get_all_subsets(vector<string> row,vector< vector<string> > &subsets):get all subsets of the joined itemset
+bool check_subsets_frequent(vector< vector<string> > subsets, vector< vector<string> > filtered)://check whether all the subsets are frequent
+map< vector<string>, int> count(vector< vector<string> >temp1, vector< vector<string> > info):count the frequency of the joined items combinations
+vector< vector<string> > check_all_subsets(vector<string> transaction, vector< vector<string> > candidates)://find the subset of candidates that occur in the transaction
+bool check_in_transaction(vector<string> candidate_subset, vector<string> transaction):check whether the candidate occurs in the transaction
+int filter(map< vector<string>, int> count_subset_occureance, float thredshold, vector< vector<string> > &filtered):ilter out the infrequent and push those frequent itemsets into filtered
+vector< vector< vector<string> > > generate_rules(vector< vector<string> > filtered, vector< vector<string> > info, float threshold, int &rules_num,ofstream &output): generate rules
+void check_possible_rules(vector<string> frequent_itemset, vector< vector< vector<string> > > &rules,vector< vector<string> > info, float threshold,int &rules_num, ofstream &output):get rules for each frequent itemset
+vector< vector< vector<string> > > get_all_possible_partition(vector<string> frequent_itemset):get all possible partitions of the frequent itemset(eg: one frequent itemset: {A,B,C}. possible partitions: {A}->{B,C},{B}->{A,C},etc.)
+void check_confidence(vector<string> from, vector<string> to, vector< vector< vector<string> > > &rules, vector< vector<string> > info, float threshold, int &rules_num,ofstream &output):compute confidence rate and compare it with threshold to get rules.store rules in a file
+void writeToFile( char const* filename, unsigned lineNo, string toWrite):write the number of discovery rules to a file
+void print_vector_string(vector<string> vector_string, int indicator,ofstream &output):write standarize the format of rules.
+
+everview of design:
+-->get parameter(read_parameters)
+-->load data(save_data)
+-->find the set of items(get_set_item)
+-->get frequent one-item itemsets(init_filter)
+-->get n-item itemsets: -->join(join)
+			  	   	        --> find possible join with only one
+			      		          different item(find_possible_join)
+			  		        --> check whether all subsets of the 
+			     		         joined  are frequent(get_all_subsets,check_subsets_frequent)
+		       -->count the frequency 
+		         of the joined(count)
+					        -->find the subset of candidates that 
+					          occur in the transaction(check_all_subsets,check_in_transaction)
+		       -->filter out infrequent join(filter)  
+-->generate rules:     --> get rules for each frequent 
+		          itemset(check_possible_rules)
+						-->possible partitions for the frequent itemset(get_all_possible_partition)
+						-->check confidence rate and write rules to file(check_confidence,print_vector_string)
+						
+				                  
+								
+the instructions how to compile: make
+the instructions how run the program: ./assign3
+Results are stored in a file called "Rules"
+
